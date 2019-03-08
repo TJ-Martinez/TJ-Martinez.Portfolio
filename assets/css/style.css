@@ -1,9 +1,12 @@
+/* This is the style page for all html in the portfolio repo */
 
+/*start off by aligning everything */
 * {
     box-sizing:border-box;
     text-align: center;
 }
 
+/* The body is going to give the backround to each page */
 body {
 
 }
