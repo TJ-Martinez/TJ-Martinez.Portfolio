@@ -11,21 +11,36 @@ body {
   background-color:#f0f0f0;
   font-style:#777777;  
   width: 960px;
+  margin-left: 15%;
 
 }
 
 .name {
     background-color:#4aaaa5;
-    border-bottom: solid .5px;
-    border-color:#cccccc;
     font-family:'Georgia', 'Times New Roman', Times, serif;
     color: white;
     width: 30%;
-    height:50px;
+    height:60px;
     margin-left:10%;
+    float: left;
+    
     
 }
 
 .top{
-    
+    background-color:#ffffff;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    float:left;
+}
+
+.headcontainer {
+    background-color:#ffffff;
+    padding: 40px;
+    border-bottom: solid 5px;
+    border-color:#cccccc;
+    margin-top: 10px;
+}
+.aboutme {
+    clear: top;
+    overflow: auto;
 }
