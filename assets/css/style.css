@@ -8,7 +8,20 @@
 
 /* The body is going to give the backround to each page */
 body {
-  background-color:
-  font-color: 
-  
+  background-color:#f0f0f0;
+  font-style:#777777;  
+  width: 960px;
+
+}
+
+.name {
+    background-color:#4aaaa5;
+    border-bottom: solid .5px;
+    border-color:#cccccc;
+    font-family:'Georgia', 'Times New Roman', Times, serif;
+    color: white;
+    width: 30%;
+    height:50px;
+    margin-left:10%;
+    
 }
