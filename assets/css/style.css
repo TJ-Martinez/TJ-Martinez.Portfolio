@@ -9,38 +9,41 @@
 /* This is just for the body NOT Header */
 body {
   background-color:#f0f0f0;
-  width: 960px;
-  margin-left: 15%;
   color: #777777;
+  margin:0;
+  padding: 0;
   
 
 }
 
-.headcontainer {
-    background-color:#ffffff;
-    padding: 6.4%;
-    border-bottom: solid 2px;
-    border-color:#cccccc;
-   
+.header {
     
+    background:#ffffff;
+    padding: 60px;
+    border-bottom: solid 1px;
+    border-color:#cccccc;
+    margin: 0;
+
 }
 
 .name {
     background-color:#4aaaa5;
     font-family:'Georgia', 'Times New Roman', Times, serif;
     color: white;
-    width: 33%;
+    width: 23%;
     height:60px;
-    float: left;
-    position:relative;
+    float:left;
     text-align:center;
+    margin-left: 10%;
+    
     
 }
 
 .top{
-    background-color:#ffffff;
+    
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     float:right;
+    margin-right: 40px;
 
 }
 
@@ -69,26 +72,55 @@ body {
 
 }
 #aboutme {
-    clear: top;
-    overflow: auto;
+    
     color:#4aaaa5;
+    block-size:  solid 2px;
     border-bottom: solid 2px;
     border-color: #7777;
-    margin-bottom: 40px;
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
+    padding: 0;
+    text-align: left;
+   
 }
 
 .whitebox {
-    clear: both;
+
     background-color: #ffffff;
     border: solid 1px;
     border-color: #7777;
-    margin-top: 40px;
-    padding: 60px;
+    width:960px;
+    margin-left: 15%;
+
+    
     
 }
 
-.Pic {
-   float: left;
-   margin-left: 40px; 
-   clear: both;
+.pic {
+    float:left;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.p {
+    
+    line-height: 20px;
+    width: 50%;
+    margin-left: 400px;
+    margin-bottom: 50px;
+    
+    
+
+    
+}
+
+.copyright {
+    clear: both;
+    overflow: auto;
+    background: #666666;
+    border-top: solid 4px;
+    border-color: #4aaaa5;
+    color:white;
+    padding: 20px;
+    margin-top: 80px;
+   
 }
