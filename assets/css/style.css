@@ -6,13 +6,22 @@
     text-align: center;
 }
 
-/* The body is going to give the backround to each page */
+/* This is just for the body NOT Header */
 body {
   background-color:#f0f0f0;
   width: 960px;
   margin-left: 15%;
   color: #777777;
 
+}
+
+.headcontainer {
+    background-color:#ffffff;
+    padding: 6.4%;
+    border-bottom: solid 2px;
+    border-color:#cccccc;
+   
+    
 }
 
 .name {
@@ -34,13 +43,7 @@ body {
 
 }
 
-.headcontainer {
-    background-color:#ffffff;
-    padding: 6.4%;
-    border-bottom: solid 2px;
-    border-color:#cccccc;
-   
-}
+
 
 #About {
     float:left;
@@ -75,5 +78,11 @@ body {
     border: solid 1px;
     border-color: #7777;
     margin-top: 20px;
+    padding: 40px;
+}
+
+.Pic {
+   float: left;
+   margin-left: 40px; 
 
 }
