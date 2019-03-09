@@ -12,6 +12,7 @@ body {
   width: 960px;
   margin-left: 15%;
   color: #777777;
+  
 
 }
 
@@ -67,22 +68,27 @@ body {
 
 
 }
-.aboutme {
+#aboutme {
     clear: top;
     overflow: auto;
     color:#4aaaa5;
+    border-bottom: solid 2px;
+    border-color: #7777;
+    margin-bottom: 40px;
 }
 
 .whitebox {
+    clear: both;
     background-color: #ffffff;
     border: solid 1px;
     border-color: #7777;
-    margin-top: 20px;
-    padding: 40px;
+    margin-top: 40px;
+    padding: 60px;
+    
 }
 
 .Pic {
    float: left;
    margin-left: 40px; 
-
+   clear: both;
 }
