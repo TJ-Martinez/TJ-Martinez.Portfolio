@@ -156,8 +156,30 @@ body {
     padding: 20px;
     margin-top: 350px;
 }
-.items,
-.input-fields  {
+.input-fields {
+    padding: 30px 0px;
+    
+}
+
+ .items {
     width: 100%;
     padding: 15px;
 }
+ .label{
+     display:block;
+    padding: 5px;
+ }
+.btn {
+    margin: 0 30px;
+    background: #4aaaa5;
+    padding: 10px;
+    color:white;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    
+
+}
+ #message {
+     height: 100px;
+ }
